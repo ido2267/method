@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <SCRIpt>
+    window.onload = function(){
+
+      /*  for (var i = 0; i<6 ; i++){
+            var newBtn = document.createElement("button");
+            newBtn.innerHTML = "Button " +i;
+            id_body.appendChild(newBtn);
+            newBtn.onclick = function(){
+              alert(i);// i is 6 every time!!!
+            }
+        } */ 
+
+             for (let  i = 0; i<6 ; i++){
+            var newBtn = document.createElement("button");
+            newBtn.innerHTML = "Button " +i;
+            id_body.appendChild(newBtn);
+            newBtn.onclick = function(){
+              alert(i);// i is corassponding to the index
+            
+            
+            }
+        }
+    }
+    </SCRIpt>
+</head>
+<body id="id_body">
+    
+</body>
+</html>
